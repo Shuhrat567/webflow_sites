@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'banner-img': "url('/webflow_sites/public/img/Banner.png')",
+      }
+    },
   },
   plugins: [],
 }

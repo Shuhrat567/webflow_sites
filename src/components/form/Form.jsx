@@ -3,41 +3,41 @@
 const Form = () => {
   return (
     <div className="w-full max-w-screen-xlp-4 bg-[#6B77E5]">
-        <div className="container mx-auto md:container-0">
-            <div className="w-[600px] inline-flex flex-col mx-44 md:mx-24 sm:mx-0 my-32">
-                <p className="text-small font-semibold text-white"><div className="bg-[#84D55E] w-1.5 sm:w-[10px] md:w-[15px] h-1.5 sm:h-[10px] md:h-[15px] inline-block mr-2"></div>How We Work</p>
-                <h1 className="text-3xl font-bold text-white my-4">To Get Your Business <br /> To The Next Level</h1>
-                <p className="text-white w-[500px]">Leverage agile frameworks to provide synopsis for high level overviews.Iterative approaches to corporate strategy foster collaborative thinking to further the overal.</p>
-                <div className="bg-[#84D55E] w-[590px] max-md:w-96 max-sm:w-52 inline-flex flex-row pt-10 pb-9 my-10 px-7">
-                    <div className="rounded-[50%] inline-flex flex-col border-2 border-[#6B77E5] p-6">
-                        <b className="text-white text-3xl">562+</b>
-                        <p className="text-white text-lg font-medium">Projects</p>
+        <div className="container mx-auto max-md:container-0 max-sm:container-0">
+            <div className="w-[600px] inline-flex flex-col max-mx-44 max-md:mx-24 max-sm:mx-5 my-32">
+                <p className="text-small font-semibold text-white max-sm:text-[15px]"><div className="bg-[#84D55E] w-3 sm:w-[8px] md:w-[10px] h-3 sm:h-[8px] md:h-[10px] inline-block mr-2"></div>How We Work</p>
+                <h1 className="text-3xl max-md:text-xl max-sm:text-[28px] font-bold text-white my-4">To Get Your Business <br /> To The Next Level</h1>
+                <p className="text-white max-w-[420px] max-md:w-[350px] max-sm:w-[300px] text-sm max-sm:mr-[70%]">Leverage agile frameworks to provide synopsis for high level overviews.Iterative approaches to corporate strategy foster collaborative thinking to further the overal.</p>
+                <div className="bg-[#84D55E] max-w-[590px] max-md:w-[500px] max-sm:w-[300px] inline-flex flex-row pt-10 max-md:pt-7 max-sm:pt-5 pb-9 max-md:pb-7 max-sm:pb-6 my-10 max-md:my-8 max-sm:my-5 px-7 max-md:px-5 max-sm:px-3">
+                    <div className="rounded-[50%] inline-flex flex-col border-2 border-[#6B77E5] p-6 max-md:p-4 max-sm:p-2">
+                        <b className="text-white text-3xl max-md:text-xl max-sm:text-[18px]">562+</b>
+                        <p className="text-white text-lg max-md:text-md max-sm:text-[12px] font-medium">Projects</p>
                     </div>
-                    <p className="text-white text-medium text-2xl mx-10">We have <b className="text-3xl">50+</b> years of experience. We offer <b  className="text-3xl">whitecollar</b> services to you</p>
+                    <p className="text-white text-medium text-2xl max-md:text-lg max-sm:text-xs my-3 max-md:my-2 max-sm:my-3 mx-10 max-md:mx-7 max-sm:mx-5">We have <b className="text-3xl max-md:text-xl max-sm:text-sm">50+</b> years of experience. We offer <b  className="text-3xl max-md:text-xl max-sm:text-sm">whitecollar</b> services to you</p>
                 </div>
                 <div className="my-4">
-                    <img src="/public/img/vector_icon.png" alt="stiker" className="inline-block mr-3"/>
-                    <div className="inline-flex flex-col ml-3 border-b-[1px]">
-                        <h3 className="text-white">Planning</h3>
-                        <p className="text-white">Leverage agile frameworks to provide synopsis for high level overviews.</p>
-                    </div>
-                </div>
-                <div className="my-4">
-                    <img src="/public/img/vector_icon.png" alt="stiker" className="inline-block mr-3"/>
-                    <div className="inline-flex flex-col ml-3 border-b-[1px]">
-                        <h3 className="text-white">Planning</h3>
-                        <p className="text-white">Leverage agile frameworks to provide synopsis for high level overviews.</p>
+                    <img src="/public/img/vector_icon.png" alt="stiker" className="inline-block mr-3 max-sm:mr-[2px] h-8 max-md:h-6 max-sm:h-4 w-8 max-md:w-6 max-sm:w-4"/>
+                    <div className="inline-flex flex-col ml-3 max-md:ml-2 max-sm:ml-0 border-b-[1px] max-w-[590px] max-md:w-[500px] max-sm:w-[320px]">
+                        <h3 className="text-white max-sm:text-[15px]">Planning</h3>
+                        <p className="text-white max-sm:text-[10px]">Leverage agile frameworks to provide synopsis for high level overviews.</p>
                     </div>
                 </div>
                 <div className="my-4">
-                    <img src="/public/img/vector_icon.png" alt="stiker" className="inline-block mr-3"/>
-                    <div className="inline-flex flex-col ml-3">
-                        <h3 className="text-white">Planning</h3>
-                        <p className="text-white">Leverage agile frameworks to provide synopsis for high level overviews.</p>
+                    <img src="/public/img/vector_icon.png" alt="stiker" className="inline-block mr-3 max-sm:mr-[2px] h-8 max-md:h-6 max-sm:h-4 w-8 max-md:w-6 max-sm:w-4"/>
+                    <div className="inline-flex flex-col ml-3 max-md:ml-2 max-sm:ml-0 border-b-[1px] max-w-[590px] max-md:w-[500px] max-sm:w-[320px]">
+                        <h3 className="text-white max-sm:text-[15px]">Planning</h3>
+                        <p className="text-white max-sm:text-[10px]">Leverage agile frameworks to provide synopsis for high level overviews.</p>
+                    </div>
+                </div>
+                <div className="my-4">
+                    <img src="/public/img/vector_icon.png" alt="stiker" className="inline-block mr-3 max-sm:mr-[2px] h-8 max-md:h-6 max-sm:h-4 w-8 max-md:w-6 max-sm:w-4"/>
+                    <div className="inline-flex flex-col ml-3 max-md:ml-2 max-sm:ml-0 border-b-[1px] max-w-[590px] max-md:w-[500px] max-sm:w-[320px]">
+                        <h3 className="text-white max-sm:text-[15px]">Planning</h3>
+                        <p className="text-white max-sm:text-[10px]">Leverage agile frameworks to provide synopsis for high level overviews.</p>
                     </div>
                 </div>
             </div>
-            <div className="inline-flex flex-col mx-10">
+            <div className="inline-flex flex-col mx-10 mt-3 mb-10">
                 <p className="text-small font-semibold text-white"><div className="bg-[#84D55E] w-1.5 sm:w-[10px] md:w-[15px] h-1.5 sm:h-[10px] md:h-[15px] inline-block mx-2"></div>Book Now</p>
                 <h1 className="text-3xl font-bold text-white my-4">Get Free Business <br /> Appointment</h1>
                 <div className="bg-white">
