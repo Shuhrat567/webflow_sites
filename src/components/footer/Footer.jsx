@@ -30,22 +30,22 @@ const Footer = () => {
                         <div>
                             <ul className="flex flex-wrap text-white text-lg font-medium xl:space-x-[170px] lg:space-x-[170px] md:space-x-[120px]">
                                 <li>
-                                    <span>Home</span>
+                                    <span className='max-sm:text-center max-sm:text-[14px]'>Home</span>
                                 </li>
-                                <li className='ml-6'>
-                                    <span>About Us</span>
+                                <li className='ml-6 max-sm:ml-1'>
+                                    <span className='max-sm:text-center max-sm:text-[14px]'>About Us</span>
                                 </li>
-                                <li className='ml-6'>
-                                    <span>Teams</span>
+                                <li className='ml-6  max-sm:ml-1'>
+                                    <span className='max-sm:text-center max-sm:text-[14px]'>Teams</span>
                                 </li>
-                                <li className='ml-6'>
-                                    <span>Prices</span>
+                                <li className='ml-6  max-sm:ml-1'>
+                                    <span className='max-sm:text-center max-sm:text-[14px]'>Prices</span>
                                 </li>
-                                <li className='ml-6'>
-                                    <span>Contact Us</span>
+                                <li className='ml-6  max-sm:ml-1'>
+                                    <span className='max-sm:text-center max-sm:text-[14px]'>Contact Us</span>
                                 </li>
-                                <li className='ml-6'>
-                                    <span>FAQ</span>
+                                <li className='ml-6  max-sm:ml-1'>
+                                    <span className='max-sm:text-center max-sm:text-[14px]'>FAQ</span>
                                 </li>
                             </ul>
                         </div>
